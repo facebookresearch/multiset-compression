@@ -1,0 +1,5 @@
+# Use LaTeX for math formatting
+mathtext.fontset: dejavusans
+font.family: serif
+font.serif: computer modern roman
+font.size: 12
