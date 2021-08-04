@@ -270,7 +270,7 @@ Plots will be saved to `figures/`, and should appear on-screen.
 
 ## Testing
 ```bash
-pip install pytest
+pip install pytest joblib pandas Pillow
 python -m pytest -v tests/
 ```
 
