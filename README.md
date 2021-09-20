@@ -44,8 +44,6 @@ There are 2 main codecs: `Multiset` and `SamplingWithoutReplacement`; as well ot
 
 Using the codecs requires installing Craystack, and multiset-compression
 ```bash
-# Install craystack
-pip install git+https://github.com/j-towns/craystack.git
 
 # Install multiset-compression
 pip install .
