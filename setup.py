@@ -25,10 +25,7 @@ with open("README.md", encoding="utf8") as f:
 
 # alphabetical order
 install_requires = [
-    "98f58030b1987ab38813e2e6a22ad46cc7eef352"
-]
-dependency_links =[
-    https://github.com/j-towns/craystack/tarball/master#egg=98f58030b1987ab38813e2e6a22ad46cc7eef352
+    "craystack @ https://github.com/j-towns/craystack/tarball/master#egg=98f58030b1987ab38813e2e6a22ad46cc7eef352"
 ]
 
 setup(
@@ -38,7 +35,7 @@ setup(
     long_description_content_type="text/markdown",
     long_description=readme,
     author="Facebook AI Research",
-    author_email="dsevero@fb.com",
+    author_email="karenu@fb.com",
     license="MIT",
     project_urls={
         "Source": "https://github.com/facebookresearch/multiset-codec",
