@@ -25,7 +25,7 @@ with open("README.md", encoding="utf8") as f:
 
 # alphabetical order
 install_requires = [
-    "craystack @ https://github.com/j-towns/craystack/tarball/master#egg=98f58030b1987ab38813e2e6a22ad46cc7eef352"
+    "craystack @ https://github.com/j-towns/craystack/tarball/master#egg=20b278f92d6e947dcf71e75f8a44468c3019e076"
 ]
 
 setup(
