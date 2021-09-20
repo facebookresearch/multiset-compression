@@ -278,6 +278,8 @@ python -m pytest -v tests/
 
 multiset-compression is MIT licensed, as found in the [LICENSE](LICENSE) file.
 
+Here is more information about [terms of use](https://opensource.facebook.com/legal/terms) and the [privacy policy](https://opensource.facebook.com/legal/privacy)
+
 ## How to cite
 ```bib
 @misc{severo2021compressing,
