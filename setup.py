@@ -23,14 +23,6 @@ with open(
 with open("README.md", encoding="utf8") as f:
     readme = f.read()
 
-# alphabetical order
-install_requires = [
-    "98f58030b1987ab38813e2e6a22ad46cc7eef352"
-]
-dependency_links =[
-    https://github.com/j-towns/craystack/tarball/master#egg=98f58030b1987ab38813e2e6a22ad46cc7eef352
-]
-
 setup(
     name="multiset-codec",
     version=version,
@@ -45,7 +37,6 @@ setup(
     },
     python_requires=">=3.6",
     setup_requires=["wheel"],
-    install_requires=install_requires,
     packages=find_packages(
         exclude=[
             "tests",
