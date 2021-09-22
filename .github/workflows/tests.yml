@@ -26,7 +26,8 @@ jobs:
         echo $CONDA/bin >> $GITHUB_PATH
     - name: Install dependencies
       run: |
-        pip install git+https://github.com/j-towns/craystack.git pytest flake8 mypy
+        pip install git+git://github.com/j-towns/craystack.git@20b278f92d6e947dcf71e75f8a44468c3019e076
+        pip install pytest flake8 mypy
         pip install -r plots-requirements.txt
         pip install .
     - name: Test with pytest
